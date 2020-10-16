@@ -26,7 +26,10 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+.keywords {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.781);
+}
 .bloc {
     width: 100%;
     clear: both;
@@ -100,7 +103,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc button:hover {
@@ -692,7 +695,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: rgba(255, 255, 255, 1) !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -771,21 +774,21 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f3976ce7;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: rgb(255 170 108)!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #f3976c99;
+    
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    
 }
 
 .ltc-white {
