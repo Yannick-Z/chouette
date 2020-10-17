@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
 	<meta name="google-site-verification" content="Z5kXkoylZd3wVhGAY_ipo8W7-SJIko3h8AO-9qjD8QQ" />
     <meta charset="utf-8">
@@ -83,27 +83,20 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
+						<label for="Nom">Nom</label>
+						<input id="name" class="form-control" type="text" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
+						<label for="mail">Adresse email</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<label for="Comment nous avez-vous connu ?">Comment nous avez-vous connu ?</label>
+						<input class="form-control" type="text" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						<label for="message"><br>
+						</label><textarea placeholder="Brief de votre projet (Ajoutez autant de détails que nécessaire)" id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -136,22 +129,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="index.html" aria-label="twitter"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="index.html" aria-label="facebook"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="index.html" aria-label="dribble"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="index.html" aria-label="instagram"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
