@@ -1435,7 +1435,7 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
+    
     max-width: 100%;
     height: auto
 }
@@ -1622,7 +1622,7 @@ h6 {
 }
 
 p {
-    margin: 0 0 10px
+    margin: 10 0 10px
 }
 
 .lead {
@@ -1785,7 +1785,8 @@ a.bg-danger:hover {
 ol,
 ul {
     margin-top: 0;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    display: contents
 }
 
 ol ol,
@@ -2328,7 +2329,7 @@ pre code {
         width: 41.66666667%
     }
     .col-sm-4 {
-        width: 33.33333333%
+        width: 100%
     }
     .col-sm-3 {
         width: 25%
