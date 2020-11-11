@@ -951,11 +951,7 @@ h4
 		position: relative;
 	}
 
-	.bloc
-	{
-		padding-left: constant;
-		padding-right: constant;
-	}
+	
 
 	.bloc-group,    .bloc-group .bloc
 	{
@@ -966,8 +962,8 @@ h4
 	.bloc-fill-screen .fill-bloc-top-edge,    .bloc-fill-screen .fill-bloc-bottom-edge
 	{
 		padding: 0 20px;
-		padding-left: constant;
-		padding-right: constant;
+		 
+		
 	}
 }
 
