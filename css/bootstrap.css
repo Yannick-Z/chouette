@@ -1507,7 +1507,7 @@ font-size: 12px}
 
 p
 {
-margin: 10 0 10px}
+margin: 0 10 0 10px}
 
 .lead
 {
@@ -3780,10 +3780,6 @@ transition: opacity .15s linear}
 {
 opacity: 1}
 
-.collapse
-{
-}
-
 .collapse.in
 {
 display: block}
@@ -4575,7 +4571,7 @@ overflow-y: auto}
 {
 max-height: 340px}
 
-@media (max-device-width:480px) and (orientation:landscape)
+@media (max-width:480px) and (orientation:landscape)
 {
 	.navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse
 	{
@@ -6904,7 +6900,7 @@ list-style: none}
 	margin: 1px;
 	text-indent: -999px;
 	cursor: pointer;
-	background-color: #000/9;
+	background-color: #000;
 	background-color: rgba(0, 0, 0, 0);
 	border: 1px solid #fff;
 border-radius: 10px}
